@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.example.marsrealestate.R
 import com.example.marsrealestate.databinding.FragmentOverviewBinding
+import com.example.marsrealestate.databinding.GridViewItemBinding
 
 class OverviewFragment: Fragment() {
 

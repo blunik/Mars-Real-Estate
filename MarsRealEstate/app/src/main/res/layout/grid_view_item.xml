@@ -20,10 +20,18 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="property"
+            type="com.example.marsrealestate.network.MarsProperty" />
+    </data>
+
     <ImageView
         android:id="@+id/mars_image"
         android:layout_width="match_parent"
         android:layout_height="170dp"
+        app:imageUrl="@{property.imgSrcUrl}"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
         android:padding="2dp"
